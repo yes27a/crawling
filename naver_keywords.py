@@ -156,7 +156,7 @@ def run():
     datas = crawling()
     save_mysql(datas)
     save_mongo(datas)
-    send_slack('naver crawling has been done.')
+    send_slack('naver crawling has been done.Esther')
     
 
 
