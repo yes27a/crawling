@@ -134,7 +134,7 @@ save_mongo(datas, mongo_client)
 
 
 def send_slack(msg, channel='#python', username='provision_bot'):
-    WEBHOOK_URL = 'https://hooks.slack.com/services/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'
+    WEBHOOK_URL = 'https://hooks.slack.com/services/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'
     payload = {
     'channel': channel,
     'username': username,
